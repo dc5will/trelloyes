@@ -1,10 +1,16 @@
 import React from "react";
-import './App.css';
+import List from '../List/List.js'
+// import Card from '../Card/Card.js'
+import "./App.css";
 
 function App() {
   return (
-    <main className="main-container">
-      <h1>Testing</h1>
+    <main className="App">
+      <header class="App-header">
+        <h1>Trelloyes!</h1>
+        <List/>
+        {/* <Card/> */}
+      </header>
     </main>
   );
 }
