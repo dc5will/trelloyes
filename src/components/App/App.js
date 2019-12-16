@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/App.css";
+import './App.css';
 
 function App() {
   return (
-    <main className="App">
+    <main className="main-container">
       <h1>Testing</h1>
     </main>
   );
